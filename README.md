@@ -17,6 +17,8 @@ exist between platforms and applications.
 Keyboard control works on X11(linux) and Windows systems. Mac control is a work
 in progress.
 
+[![Build Status](https://travis-ci.org/Sebelino/PyUserInput.png)](https://travis-ci.org/Sebelino/PyUserInput)
+
 Dependencies
 ------------
 
