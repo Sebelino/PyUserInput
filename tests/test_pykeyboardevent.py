@@ -4,8 +4,6 @@ from threading import Thread
 from pykeyboard import PyKeyboard
 from pykeyboard import PyKeyboardEvent
 
-from pprint import pprint #noqa
-
 
 def test_keylistener_init():
     PyKeyboardEvent()
