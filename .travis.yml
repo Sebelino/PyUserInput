@@ -10,11 +10,7 @@ before_script:
     - sleep 3  # Give xvfb time to start
     - "xauth generate :99 . trusted"
 
-#script: nosetests tests/test_pykeyboardevent.py -sv
-script:
-    - "echo $XAUTHORITY"
-    - "echo $DISPLAY"
-    - "python xtest.py"
+script: nosetests tests/test_pykeyboardevent.py -sv
 
 branches:
     only:
